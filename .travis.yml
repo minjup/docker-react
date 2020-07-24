@@ -8,4 +8,4 @@ before_install:
 language: generic 
 
 script:
-    - docker run -e CI=true USERNAME/docker-react npm run test
+    - docker run -e CI=true minjupk/docker-react npm run test
